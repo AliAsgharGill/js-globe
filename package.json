@@ -1,0 +1,25 @@
+{
+  "name": "js-globe",
+  "version": "1.0.0",
+  "description": "A 3D globe visualization package using three.js",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist"
+  },
+  "keywords": [
+    "globe",
+    "3D",
+    "three.js",
+    "visualization"
+  ],
+  "author": "Ali Asghar Gill",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.156.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0"
+  }
+}
