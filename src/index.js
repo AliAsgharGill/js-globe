@@ -1,3 +1,3 @@
-import Globe from './globe';
+import createGlobe from "./globe";
 
-export { Globe };
+export { createGlobe };
